@@ -1,0 +1,35 @@
+# Project TODO
+
+## Design e Branding
+- [x] Scegliere palette colori professionale (rosso Vaillant + grigio/blu)
+- [x] Generare logo del centro assistenza
+- [x] Generare immagini hero per homepage
+- [x] Generare icone per servizi
+
+## Struttura e Layout
+- [x] Header con logo e numero telefono in evidenza
+- [x] Sezione hero con call-to-action principale
+- [x] Sezione servizi offerti
+- [x] Sezione vantaggi competitivi (intervento rapido, tecnici esperti, pezzi originali)
+- [x] Sezione certificazioni e garanzie
+- [x] Sezione contatti con mappa di Milano
+- [x] Footer con informazioni complete
+
+## Contenuti
+- [x] Testi per homepage con focus su servizio rapido (6-8 ore)
+- [x] Evidenziare risoluzione problemi in 24h
+- [x] Sottolineare uso pezzi originali Vaillant
+- [x] Menzionare certificazioni e competenze tecniche
+- [x] Specificare che è centro indipendente ma certificato
+- [x] Inserire numero telefono: +39 800 940551
+
+## Funzionalità
+- [x] Click-to-call sul numero telefono (mobile)
+- [x] Integrazione mappa Google Maps per localizzazione Milano
+- [ ] Form contatto (opzionale)
+- [x] Responsive design per mobile
+
+## SEO e Ottimizzazione
+- [x] Meta tags ottimizzati per ricerca locale
+- [x] Titoli e descrizioni SEO-friendly
+- [x] Struttura semantica HTML
