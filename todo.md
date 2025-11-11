@@ -41,3 +41,9 @@
 - [x] Specificare che è centro multimarca (Vaillant, Hermann, Baxi, Immergas, Riello, Viessmann)
 - [x] Aggiungere loghi/badge dei brand supportati
 - [x] Aggiornare testi per includere tutti i marchi
+
+## Galleria Fotografica
+- [x] Generare immagini di tecnici al lavoro
+- [x] Generare immagini di interventi su caldaie
+- [x] Creare componente galleria fotografica
+- [x] Integrare galleria nella homepage

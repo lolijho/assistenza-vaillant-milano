@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BrandsSection from "@/components/BrandsSection";
+import Gallery from "@/components/Gallery";
 import { 
   Phone, 
   Clock, 
@@ -256,6 +257,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Galleria Fotografica */}
+        <Gallery />
 
         {/* Area di Servizio */}
         <section className="py-16">
