@@ -19,6 +19,24 @@
       gtag('config', 'AW-17722513967');
     </script>
     
+    <!-- Event snippet for conversion tracking -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+          'send_to': 'AW-17722513967/UdR8CLq3sb4bEK-04IJC',
+          'value': 1.0,
+          'currency': 'EUR',
+          'event_callback': callback
+        });
+        return false;
+      }
+    </script>
+    
     <meta name="description" content="Centro Assistenza M - Centro multimarca specializzato in caldaie Vaillant, Hermann, Baxi, Immergas, Riello, Viessmann a Milano. Intervento rapido 6-8 ore, risoluzione 24h. Tel: +39 800 940551" />
     <meta name="keywords" content="assistenza caldaie milano, centro assistenza M, riparazione caldaia vaillant hermann baxi immergas riello viessmann, manutenzione caldaia milano, pronto intervento caldaia, tecnico caldaie multimarca" />
     <meta name="author" content="Centro Assistenza M Milano" />

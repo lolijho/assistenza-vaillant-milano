@@ -2,8 +2,25 @@ import { APP_LOGO } from "@/const";
 import { Phone } from "lucide-react";
 import { Button } from "./ui/button";
 
+// Dichiarazione per la funzione gtag definita in index.html
+declare global {
+  interface Window {
+    gtag_report_conversion: (url?: string) => boolean;
+  }
+}
+
 export default function Header() {
   const phoneNumber = "+39 800 940551";
+  
+  const handleCallClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const telUrl = `tel:${phoneNumber.replace(/\s/g, '')}`;
+    if (typeof window.gtag_report_conversion !== 'undefined') {
+      window.gtag_report_conversion(telUrl);
+    } else {
+      window.location.href = telUrl;
+    }
+  };
   
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
@@ -27,7 +44,10 @@ export default function Header() {
               className="gap-2"
               asChild
             >
-              <a href={`tel:${phoneNumber.replace(/\s/g, '')}`}>
+              <a 
+                href={`tel:${phoneNumber.replace(/\s/g, '')}`}
+                onClick={handleCallClick}
+              >
                 <Phone className="h-5 w-5" />
                 <span className="hidden sm:inline">Chiama Ora</span>
               </a>
