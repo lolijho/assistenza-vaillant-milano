@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BrandsSection from "@/components/BrandsSection";
 import { 
   Phone, 
   Clock, 
@@ -22,7 +23,7 @@ export default function Home() {
     {
       icon: <Wrench className="h-12 w-12 text-primary" />,
       title: "Riparazione e Manutenzione",
-      description: "Interventi di riparazione e manutenzione ordinaria e straordinaria su tutte le caldaie Vaillant. Diagnosi accurata e risoluzione rapida dei problemi.",
+      description: "Interventi di riparazione e manutenzione ordinaria e straordinaria su caldaie Vaillant, Hermann, Baxi, Immergas, Riello e Viessmann. Diagnosi accurata e risoluzione rapida dei problemi.",
       image: "/service-repair.png"
     },
     {
@@ -81,14 +82,14 @@ export default function Home() {
           <div className="container relative z-10">
             <div className="max-w-3xl">
               <Badge className="mb-4 bg-primary text-primary-foreground border-0">
-                Centro Assistenza Specializzato Vaillant
+                Centro Assistenza Multimarca
               </Badge>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Assistenza Caldaie Vaillant a Milano
+                Centro Assistenza M - Milano
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-white/90">
-                Intervento rapido entro 6-8 ore, risoluzione garantita in 24 ore. 
-                Tecnici certificati e pezzi originali Vaillant.
+                Assistenza specializzata per caldaie Vaillant, Hermann, Baxi, Immergas, Riello e Viessmann. 
+                Intervento rapido entro 6-8 ore, risoluzione garantita in 24 ore.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
@@ -140,13 +141,16 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Marchi Supportati */}
+        <BrandsSection />
+
         {/* Vantaggi */}
         <section className="py-16 bg-muted/30">
           <div className="container">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Perché Sceglierci</h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Centro assistenza indipendente specializzato con tutte le certificazioni necessarie
+                Centro assistenza multimarca indipendente specializzato in Vaillant, Hermann, Baxi, Immergas, Riello e Viessmann
               </p>
             </div>
             
@@ -172,7 +176,7 @@ export default function Home() {
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">I Nostri Servizi</h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Assistenza completa per caldaie Vaillant: dalla manutenzione ordinaria alle emergenze
+                Assistenza completa per caldaie di tutte le marche: dalla manutenzione ordinaria alle emergenze
               </p>
             </div>
             
@@ -220,15 +224,15 @@ export default function Home() {
                     <div className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                       <div>
-                        <p className="font-semibold">Tecnici Specializzati Vaillant</p>
-                        <p className="text-sm text-muted-foreground">Formazione continua e aggiornamento costante</p>
+                        <p className="font-semibold">Tecnici Multimarca Specializzati</p>
+                        <p className="text-sm text-muted-foreground">Esperti in Vaillant, Hermann, Baxi, Immergas, Riello, Viessmann</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                       <div>
                         <p className="font-semibold">Solo Pezzi Originali</p>
-                        <p className="text-sm text-muted-foreground">Ricambi certificati Vaillant per massima affidabilità</p>
+                        <p className="text-sm text-muted-foreground">Ricambi certificati per tutte le marche trattate</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
@@ -242,9 +246,9 @@ export default function Home() {
                   
                   <div className="mt-6 p-4 bg-primary/5 rounded-lg border border-primary/20">
                     <p className="text-sm text-center">
-                      <strong>Nota importante:</strong> Siamo un centro assistenza indipendente specializzato in caldaie Vaillant, 
-                      non direttamente affiliato con Vaillant Group, ma con tutte le certificazioni e competenze necessarie 
-                      per garantire un servizio di altissima qualità.
+                      <strong>Nota importante:</strong> Siamo un centro assistenza multimarca indipendente specializzato in caldaie 
+                      Vaillant, Hermann, Baxi, Immergas, Riello e Viessmann, con tutte le certificazioni e competenze necessarie 
+                      per garantire un servizio di altissima qualità su tutte le marche trattate.
                     </p>
                   </div>
                 </CardContent>
@@ -313,7 +317,7 @@ export default function Home() {
         <section className="py-16 bg-primary text-primary-foreground">
           <div className="container text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Hai Bisogno di Assistenza per la Tua Caldaia Vaillant?
+              Hai Bisogno di Assistenza per la Tua Caldaia?
             </h2>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
               Contattaci ora per un intervento rapido e professionale. 

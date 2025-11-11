@@ -10,9 +10,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo e Descrizione */}
           <div>
-            <img src={APP_LOGO} alt="Assistenza Vaillant Milano" className="h-16 w-auto mb-4 brightness-0 invert" />
+            <img src={APP_LOGO} alt="Centro Assistenza M Milano" className="h-16 w-auto mb-4 brightness-0 invert" />
             <p className="text-sm opacity-90">
-              Centro assistenza specializzato per caldaie Vaillant a Milano. 
+              Centro assistenza multimarca specializzato in caldaie Vaillant, Hermann, Baxi, Immergas, Riello e Viessmann a Milano. 
               Tecnici certificati, pezzi originali, intervento rapido garantito.
             </p>
           </div>
@@ -64,8 +64,8 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-white/20 mt-8 pt-8 text-center text-sm opacity-75">
-          <p>&copy; {new Date().getFullYear()} Assistenza Caldaie Vaillant Milano. Tutti i diritti riservati.</p>
-          <p className="mt-2">Centro assistenza indipendente specializzato Vaillant - Non affiliato direttamente con Vaillant Group</p>
+          <p>&copy; {new Date().getFullYear()} Centro Assistenza M Milano. Tutti i diritti riservati.</p>
+          <p className="mt-2">Centro assistenza multimarca indipendente - Specializzati in Vaillant, Hermann, Baxi, Immergas, Riello, Viessmann</p>
         </div>
       </div>
     </footer>

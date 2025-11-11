@@ -10,10 +10,10 @@ export default function Header() {
       <div className="container">
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-3">
-            <img src={APP_LOGO} alt="Assistenza Vaillant Milano" className="h-12 w-auto" />
+            <img src={APP_LOGO} alt="Centro Assistenza M Milano" className="h-12 w-auto" />
             <div className="hidden sm:block">
-              <h1 className="text-lg font-bold text-secondary">Assistenza Caldaie Vaillant</h1>
-              <p className="text-sm text-muted-foreground">Milano e Provincia</p>
+              <h1 className="text-lg font-bold text-secondary">Centro Assistenza M</h1>
+              <p className="text-sm text-muted-foreground">Centro Multimarca - Milano</p>
             </div>
           </div>
           

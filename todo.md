@@ -33,3 +33,11 @@
 - [x] Meta tags ottimizzati per ricerca locale
 - [x] Titoli e descrizioni SEO-friendly
 - [x] Struttura semantica HTML
+
+## Modifiche Richieste dall'Utente
+- [x] Cambiare logo in "Centro assistenza M"
+- [x] Aggiornare nome in tutti i testi del sito
+- [x] Aggiornare meta tags con nuovo nome
+- [x] Specificare che è centro multimarca (Vaillant, Hermann, Baxi, Immergas, Riello, Viessmann)
+- [x] Aggiungere loghi/badge dei brand supportati
+- [x] Aggiornare testi per includere tutti i marchi
