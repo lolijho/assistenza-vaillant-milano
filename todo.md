@@ -47,3 +47,9 @@
 - [x] Generare immagini di interventi su caldaie
 - [x] Creare componente galleria fotografica
 - [x] Integrare galleria nella homepage
+
+## Deploy e Repository
+- [x] Creare file di configurazione Netlify
+- [x] Verificare build di produzione
+- [ ] Creare repository GitHub
+- [ ] Push del codice su GitHub
