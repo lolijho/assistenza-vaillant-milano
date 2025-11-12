@@ -171,7 +171,7 @@ export default function Home() {
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Perché Sceglierci</h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Centro assistenza multimarca indipendente specializzato in Vaillant, Hermann, Baxi, Immergas, Riello e Viessmann
+                Centro specializzato in caldaie <strong className="text-foreground">Vaillant</strong>, con assistenza multimarca per Hermann, Baxi, Immergas, Riello e Viessmann
               </p>
             </div>
             
@@ -197,7 +197,7 @@ export default function Home() {
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">I Nostri Servizi</h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Assistenza completa per caldaie di tutte le marche: dalla manutenzione ordinaria alle emergenze
+                Assistenza completa per caldaie <strong className="text-foreground">Vaillant</strong> e altre marche: dalla manutenzione ordinaria alle emergenze
               </p>
             </div>
             
