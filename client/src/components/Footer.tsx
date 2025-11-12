@@ -37,7 +37,9 @@ export default function Footer() {
               </div>
               <div className="flex items-start gap-3">
                 <Mail className="h-5 w-5 mt-0.5 flex-shrink-0" />
-                <p>info@assistenzavaillantmilano.it</p>
+                <a href="mailto:info@assistenzam.it" className="hover:underline">
+                  info@assistenzam.it
+                </a>
               </div>
             </div>
           </div>
