@@ -100,13 +100,13 @@ export default function Home() {
           <div className="container relative z-10">
             <div className="max-w-3xl">
               <Badge className="mb-4 bg-primary text-primary-foreground border-0">
-                Centro Assistenza Multimarca
+                Specializzati Caldaie Vaillant
               </Badge>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Centro Assistenza M - Milano
+                Assistenza Caldaie Vaillant Milano
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-white/90">
-                Assistenza specializzata per caldaie Vaillant, Hermann, Baxi, Immergas, Riello e Viessmann. 
+                Centro specializzato in caldaie Vaillant. Assistenza anche per Hermann, Baxi, Immergas, Riello e Viessmann. 
                 Intervento rapido entro 6-8 ore, risoluzione garantita in 24 ore.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
