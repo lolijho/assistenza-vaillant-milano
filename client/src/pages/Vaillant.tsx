@@ -63,20 +63,20 @@ export default function Vaillant() {
   const services = [
     {
       icon: <Wrench className="h-12 w-12 text-[#22a08f]" />,
-      title: "Riparazione Caldaie Vaillant",
-      description: "Interventi specializzati di riparazione su tutti i modelli di caldaie Vaillant. Tecnici certificati, diagnosi accurata e risoluzione rapida dei problemi con pezzi di ricambio originali.",
+      title: "Riparazione Caldaie",
+      description: "Interventi specializzati di riparazione su tutti i modelli di caldaie Vaillant, Hermann, Baxi e altre marche. Tecnici specializzati, diagnosi accurata e risoluzione rapida dei problemi con pezzi di ricambio originali.",
       image: "/service-repair.png"
     },
     {
       icon: <Settings className="h-12 w-12 text-[#22a08f]" />,
       title: "Manutenzione Ordinaria",
-      description: "Manutenzione periodica obbligatoria per caldaie Vaillant. Controllo completo, pulizia, verifica fumi e rilascio bollino blu. Mantieni la tua caldaia efficiente e sicura.",
+      description: "Manutenzione periodica obbligatoria per caldaie di tutte le marche. Controllo completo, pulizia, verifica fumi e rilascio bollino blu. Mantieni la tua caldaia efficiente e sicura.",
       image: "/service-maintenance.png"
     },
     {
       icon: <LifeBuoy className="h-12 w-12 text-[#22a08f]" />,
-      title: "Pronto Intervento Vaillant 24/7",
-      description: "Servizio di emergenza disponibile 24 ore su 24, 7 giorni su 7 per caldaie Vaillant. Intervento garantito entro 6-8 ore dalla chiamata, risoluzione in 24 ore.",
+      title: "Pronto Intervento 24/7",
+      description: "Servizio di emergenza disponibile 24 ore su 24, 7 giorni su 7 per caldaie di tutte le marche. Intervento garantito entro 6-8 ore dalla chiamata, risoluzione in 24 ore.",
       image: "/service-emergency.png"
     }
   ];
@@ -85,12 +85,12 @@ export default function Vaillant() {
     {
       icon: <Flame className="h-8 w-8" />,
       title: "Specialisti Vaillant",
-      description: "100% focalizzati su Vaillant"
+      description: "Esperienza approfondita su Vaillant"
     },
     {
       icon: <Shield className="h-8 w-8" />,
       title: "Ricambi Originali",
-      description: "Solo pezzi certificati Vaillant"
+      description: "Pezzi certificati per tutte le marche"
     },
     {
       icon: <Zap className="h-8 w-8" />,
@@ -99,8 +99,8 @@ export default function Vaillant() {
     },
     {
       icon: <Award className="h-8 w-8" />,
-      title: "Tecnici Certificati",
-      description: "Formazione Vaillant ufficiale"
+      title: "Tecnici Specializzati",
+      description: "Competenza multimarca"
     }
   ];
 
@@ -135,14 +135,14 @@ export default function Vaillant() {
           <div className="container relative z-10">
             <div className="max-w-3xl">
               <Badge className="mb-4 bg-white text-[#22a08f] border-0 font-bold">
-                Centro Specializzato Vaillant
+                Centro Specializzato
               </Badge>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Assistenza Caldaie Vaillant Milano
+                Assistenza Caldaie Vaillant, Hermann, Baxi e Non Solo
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-white/95">
-                Il tuo centro di riferimento a Milano per caldaie Vaillant. 
-                Tecnici certificati, ricambi originali, intervento rapido garantito in 6-8 ore.
+                Il tuo centro di riferimento a Milano specializzato in caldaie Vaillant. 
+                Assistenza anche per Hermann, Baxi, Immergas, Riello e Viessmann. Intervento rapido garantito in 6-8 ore.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
@@ -199,10 +199,10 @@ export default function Vaillant() {
           <div className="container">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#22a08f]">
-                Tutti i Modelli Vaillant
+                Modelli Vaillant Supportati
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Assistenza specializzata per tutta la gamma di caldaie Vaillant
+                Assistenza specializzata per tutta la gamma di caldaie Vaillant e altre marche
               </p>
             </div>
             
@@ -224,9 +224,9 @@ export default function Vaillant() {
         <section className="py-16 bg-[#22a08f]/5">
           <div className="container">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Perché Scegliere Noi per la Tua Vaillant</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Perché Scegliere Noi per la Tua Caldaia</h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Centro specializzato esclusivamente in caldaie Vaillant a Milano
+                Centro specializzato in caldaie Vaillant e altre marche a Milano
               </p>
             </div>
             
@@ -250,9 +250,9 @@ export default function Vaillant() {
         <section id="servizi" className="py-16">
           <div className="container">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Servizi Vaillant Specializzati</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">I Nostri Servizi Specializzati</h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Assistenza completa per caldaie Vaillant: dalla manutenzione ordinaria alle emergenze
+                Assistenza completa per caldaie Vaillant, Hermann, Baxi e altre marche: dalla manutenzione ordinaria alle emergenze
               </p>
             </div>
             
@@ -286,43 +286,43 @@ export default function Vaillant() {
                   <div className="mx-auto mb-4 p-4 bg-[#22a08f]/10 rounded-full w-fit">
                     <Award className="h-12 w-12 text-[#22a08f]" />
                   </div>
-                  <CardTitle className="text-2xl md:text-3xl">Centro Certificato Vaillant</CardTitle>
+                  <CardTitle className="text-2xl md:text-3xl">Centro Abilitato ad Operare su Tutte le Caldaie</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-[#22a08f] flex-shrink-0 mt-1" />
                       <div>
-                        <p className="font-semibold">Tecnici Formati Vaillant</p>
-                        <p className="text-sm text-muted-foreground">Aggiornamento continuo sui nuovi modelli</p>
+                        <p className="font-semibold">Tecnici Specializzati Multimarca</p>
+                        <p className="text-sm text-muted-foreground">Competenza su Vaillant, Hermann, Baxi e altre marche</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-[#22a08f] flex-shrink-0 mt-1" />
                       <div>
-                        <p className="font-semibold">Solo Ricambi Originali</p>
-                        <p className="text-sm text-muted-foreground">Pezzi certificati Vaillant con garanzia</p>
+                        <p className="font-semibold">Ricambi Originali</p>
+                        <p className="text-sm text-muted-foreground">Pezzi certificati per tutte le marche</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-[#22a08f] flex-shrink-0 mt-1" />
                       <div>
-                        <p className="font-semibold">Strumenti Diagnostici Vaillant</p>
-                        <p className="text-sm text-muted-foreground">Attrezzatura professionale specifica</p>
+                        <p className="font-semibold">Strumenti Diagnostici Professionali</p>
+                        <p className="text-sm text-muted-foreground">Attrezzatura professionale multimarca</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-[#22a08f] flex-shrink-0 mt-1" />
                       <div>
                         <p className="font-semibold">Garanzia su Interventi</p>
-                        <p className="text-sm text-muted-foreground">Qualità e affidabilità certificate</p>
+                        <p className="text-sm text-muted-foreground">Qualità e affidabilità su tutte le marche</p>
                       </div>
                     </div>
                   </div>
                   
                   <div className="mt-6 p-4 bg-[#22a08f]/10 rounded-lg border border-[#22a08f]/30">
                     <p className="text-sm text-center">
-                      <strong className="text-[#22a08f]">Centro specializzato Vaillant:</strong> Esperienza pluriennale 
+                      <strong className="text-[#22a08f]">Centro specializzato:</strong> Esperienza pluriennale 
                       su caldaie Vaillant, con tecnici formati direttamente dal produttore per garantire 
                       il massimo livello di competenza e professionalità.
                     </p>
@@ -342,7 +342,7 @@ export default function Vaillant() {
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Area di Servizio</h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Assistenza caldaie Vaillant in tutta Milano e provincia
+                Assistenza caldaie multimarca in tutta Milano e provincia
               </p>
             </div>
             
@@ -354,7 +354,7 @@ export default function Vaillant() {
                     <div>
                       <h3 className="text-xl font-bold mb-2">Milano e Provincia</h3>
                       <p className="text-muted-foreground mb-4">
-                        Copriamo tutta l'area metropolitana di Milano e provincia per assistenza caldaie Vaillant. 
+                        Copriamo tutta l'area metropolitana di Milano e provincia per assistenza caldaie multimarca (Vaillant, Hermann, Baxi e altre). 
                         Il nostro servizio di pronto intervento garantisce la presenza di un tecnico specializzato 
                         entro 6-8 ore dalla chiamata in qualsiasi zona dell'area servita.
                       </p>
@@ -396,11 +396,11 @@ export default function Vaillant() {
         <section className="py-16 bg-[#22a08f] text-white">
           <div className="container text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Hai Bisogno di Assistenza per la Tua Caldaia Vaillant?
+              Hai Bisogno di Assistenza per la Tua Caldaia?
             </h2>
             <p className="text-xl mb-8 opacity-95 max-w-2xl mx-auto">
               Contattaci ora per un intervento rapido e professionale. 
-              I nostri tecnici specializzati Vaillant sono pronti ad aiutarti!
+              I nostri tecnici specializzati in Vaillant, Hermann, Baxi e altre marche sono pronti ad aiutarti!
             </p>
             <Button 
               size="lg" 
@@ -414,7 +414,7 @@ export default function Vaillant() {
               </a>
             </Button>
             <p className="mt-6 text-sm opacity-90">
-              Disponibili 24/7 per emergenze Vaillant • Intervento entro 6-8 ore • Risoluzione in 24 ore
+              Disponibili 24/7 per emergenze • Intervento entro 6-8 ore • Risoluzione in 24 ore
             </p>
           </div>
         </section>
