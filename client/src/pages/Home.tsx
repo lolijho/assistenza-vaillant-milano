@@ -17,25 +17,8 @@ import {
   MapPin
 } from "lucide-react";
 
-// Dichiarazione per la funzione gtag definita in index.html
-declare global {
-  interface Window {
-    gtag_report_conversion: (url?: string) => boolean;
-  }
-}
-
 export default function Home() {
   const phoneNumber = "+39 800 940551";
-  
-  const handleCallClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
-    const telUrl = `tel:${phoneNumber.replace(/\s/g, '')}`;
-    if (typeof window.gtag_report_conversion !== 'undefined') {
-      window.gtag_report_conversion(telUrl);
-    } else {
-      window.location.href = telUrl;
-    }
-  };
 
   const services = [
     {
@@ -115,10 +98,7 @@ export default function Home() {
                   className="text-lg gap-2 bg-primary hover:bg-primary/90"
                   asChild
                 >
-                  <a 
-                    href={`tel:${phoneNumber.replace(/\s/g, '')}`}
-                    onClick={handleCallClick}
-                  >
+                  <a href={`tel:${phoneNumber.replace(/\s/g, '')}`}>
                     <Phone className="h-5 w-5" />
                     Chiama {phoneNumber}
                   </a>
@@ -353,10 +333,7 @@ export default function Home() {
               className="text-lg gap-2"
               asChild
             >
-              <a 
-                href={`tel:${phoneNumber.replace(/\s/g, '')}`}
-                onClick={handleCallClick}
-              >
+              <a href={`tel:${phoneNumber.replace(/\s/g, '')}`}>
                 <Phone className="h-5 w-5" />
                 Chiama {phoneNumber}
               </a>
