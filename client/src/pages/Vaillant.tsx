@@ -138,7 +138,7 @@ export default function Vaillant() {
                 Centro Specializzato
               </Badge>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Assistenza Caldaie Vaillant, Hermann, Baxi e Non Solo
+                Assistenza Caldaie Vaillant Milano
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-white/95">
                 Il tuo centro di riferimento a Milano specializzato in caldaie Vaillant. 
