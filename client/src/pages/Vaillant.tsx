@@ -137,7 +137,7 @@ export default function Vaillant() {
               <Badge className="mb-4 bg-white text-[#22a08f] border-0 font-bold">
                 Centro Specializzato
               </Badge>
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              <h1 className="text-3xl md:text-6xl font-bold mb-6">
                 Assistenza Caldaie Vaillant Milano
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-white/95">
