@@ -319,14 +319,6 @@ export default function Vaillant() {
                       </div>
                     </div>
                   </div>
-                  
-                  <div className="mt-6 p-4 bg-[#22a08f]/10 rounded-lg border border-[#22a08f]/30">
-                    <p className="text-sm text-center">
-                      <strong className="text-[#22a08f]">Centro specializzato:</strong> Esperienza pluriennale 
-                      su caldaie Vaillant, con tecnici formati direttamente dal produttore per garantire 
-                      il massimo livello di competenza e professionalità.
-                    </p>
-                  </div>
                 </CardContent>
               </Card>
             </div>
